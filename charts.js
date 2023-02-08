@@ -115,7 +115,7 @@ function buildCharts(sample) {
       marker: {
         color: otu_ids,
         size: sample_values,
-        colorscale: "Blues"
+        colorscale: "Greens"
       }
     };
 
@@ -136,17 +136,17 @@ function buildCharts(sample) {
       value: washFrequency,
       title: { text: "<b>Bellybutton Washing Frequency</b> <br>Scrubs per Week", font: { size: 24 } },
       gauge: {
-        axis: { range: [null, 10], tickcolor: "darkblue" },
+        axis: { range: [null, 10], tickcolor: "darkgreen" },
         bar: { color: "black" },
         bgcolor: "white",
         borderwidth: 2,
         bordercolor: "gray",
         steps: [
-          { range: [0, 2], color: "#004eff" },
-          { range: [2, 4], color: "#003ecc" },
-          { range: [4, 6], color: "#0036b1" },
-          { range: [6, 8], color: "#002e9a" },
-          { range: [8, 10], color: "#001f66" }
+          { range: [0, 2], color: "#00FF04" },
+          { range: [2, 4], color: "#00BD03" },
+          { range: [4, 6], color: "#008C02" },
+          { range: [6, 8], color: "#005B01" },
+          { range: [8, 10], color: "#002C00" }
         ],
       }
     }
